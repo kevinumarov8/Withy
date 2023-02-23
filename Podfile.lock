@@ -1,0 +1,203 @@
+PODS:
+  - AES256CBC (1.4.0)
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - Cosmos (19.0.3)
+  - CryptoSwift (1.4.0)
+  - DatePickerDialog (3.0)
+  - Firebase/Core (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 6.1.6)
+  - Firebase/CoreOnly (6.13.0):
+    - FirebaseCore (= 6.4.0)
+  - Firebase/Messaging (6.13.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 4.1.9)
+  - FirebaseAnalytics (6.1.6):
+    - FirebaseCore (~> 6.4)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleAppMeasurement (= 6.1.6)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseCore (6.4.0):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.2):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.1.0)
+  - FirebaseInstanceID (4.2.7):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.9):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GoogleAppMeasurement (6.1.6):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (= 0.3.9011)
+  - GoogleDataTransport (3.2.0)
+  - GoogleDataTransportCCTSupport (1.2.2):
+    - GoogleDataTransport (~> 3.2)
+    - nanopb (~> 0.3.901)
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - GoogleUtilities/AppDelegateSwizzler (6.3.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.2)
+  - GoogleUtilities/Logger (6.3.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.2)"
+  - GoogleUtilities/Reachability (6.3.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.2):
+    - GoogleUtilities/Logger
+  - HandyJSON (5.0.2)
+  - InAppPurchase (2.3.1)
+  - Jelly (2.2.2)
+  - Kanna (4.0.3)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - Presentr (1.9)
+  - Protobuf (3.10.0)
+  - RangeSeekSlider (1.8.0)
+  - SideMenuSwift (2.0.3)
+  - SimpleImageViewer (1.1.1)
+  - SwiftDictionaryCoding (1.0.0)
+  - SwiftyContacts (2.0.7)
+
+DEPENDENCIES:
+  - AES256CBC
+  - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.5)
+  - Cosmos (~> 19.0)
+  - CryptoSwift (~> 1.4.0)
+  - DatePickerDialog
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - HandyJSON (~> 5.0.2)
+  - InAppPurchase
+  - Jelly (~> 2.0)
+  - Kanna (~> 4.0.0)
+  - NVActivityIndicatorView
+  - Presentr
+  - RangeSeekSlider
+  - SideMenuSwift
+  - SimpleImageViewer (~> 1.1.1)
+  - SwiftDictionaryCoding
+  - SwiftyContacts (~> 2.0.7)
+
+SPEC REPOS:
+  trunk:
+    - AES256CBC
+    - Alamofire
+    - AlamofireImage
+    - Cosmos
+    - CryptoSwift
+    - DatePickerDialog
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - HandyJSON
+    - InAppPurchase
+    - Jelly
+    - Kanna
+    - nanopb
+    - NVActivityIndicatorView
+    - Presentr
+    - Protobuf
+    - RangeSeekSlider
+    - SideMenuSwift
+    - SimpleImageViewer
+    - SwiftDictionaryCoding
+    - SwiftyContacts
+
+SPEC CHECKSUMS:
+  AES256CBC: 794e3a4d7530a7f37c908899cc4fedac63733b32
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Cosmos: a6fb17284281fa12cf4c85c2efecd440a215ec44
+  CryptoSwift: 7cc902df1784de3b389a387756c7d710f197730c
+  DatePickerDialog: 03dbb8350bfa80302ab2a8c83cee1fec70184444
+  Firebase: 458d109512200d1aca2e1b9b6cf7d68a869a4a46
+  FirebaseAnalytics: 45f36d9c429fc91d206283900ab75390cd05ee8a
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseCore: 307ea2508df730c5865334e41965bd9ea344b0e5
+  FirebaseCoreDiagnostics: 511f4f3ed7d440bb69127e8b97c2bc8befae639e
+  FirebaseCoreDiagnosticsInterop: e9b1b023157e3a2fc6418b5cb601e79b9af7b3a0
+  FirebaseInstanceID: ebd2ea79ee38db0cb5f5167b17a0d387e1cc7b6e
+  FirebaseMessaging: e8d71368a5c579083da02203146c953f3386d503
+  GoogleAppMeasurement: dfe55efa543e899d906309eaaac6ca26d249862f
+  GoogleDataTransport: 8e9b210c97d55fbff306cc5468ff91b9cb32dcf5
+  GoogleDataTransportCCTSupport: ef79a4728b864946a8aafdbab770d5294faf3b5f
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  GoogleUtilities: 547a86735c6f0ee30ad17e94df4fc21f616b71cb
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  InAppPurchase: 0a8e027080fb57556ca9e04768137d0d6971f87e
+  Jelly: 0576a8fd3b3bea78f6c2d952acdc30b0835dda71
+  Kanna: 0ebbdd0e7e3308f0aafbd569e79c8cadc5eb877c
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Presentr: 7078d7eb5d1661ebeaae60c9e42a1e534de1b993
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  RangeSeekSlider: 650b11fa1edcb92e1e0ede797669d98622570fb5
+  SideMenuSwift: 5c2b1496544ce3f1f08f4dddf4810eaac49f543d
+  SimpleImageViewer: 34c3a2cde2d9ac022146772cefc27fca14b0c8b1
+  SwiftDictionaryCoding: b66a21363a7bbda35dec0c5d61ab3e10b75dc11b
+  SwiftyContacts: 6f557186b1ad8a16e3cba28b3f4b735e2723f95b
+
+PODFILE CHECKSUM: 767148e32f3b584bbd38ebeb235f7869994378a4
+
+COCOAPODS: 1.10.1
