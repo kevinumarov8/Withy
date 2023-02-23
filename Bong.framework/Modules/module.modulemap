@@ -1,0 +1,11 @@
+framework module Bong {
+  umbrella header "Bong.h"
+
+  export *
+  module * { export * }
+}
+
+module Bong.Swift {
+    header "Bong-Swift.h"
+    requires objc
+}
